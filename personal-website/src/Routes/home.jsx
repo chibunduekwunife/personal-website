@@ -10,7 +10,7 @@ export default function Home() {
 
     return (
 
-        <div className="font-sans">
+        <div className="font-sans pt-30">
 
             {/* header */}
             
@@ -22,7 +22,7 @@ export default function Home() {
 
                 <h1 className="text-4xl mt-5">Student & Full Stack Developer</h1>
 
-                <Button text="Let's Chat!" handleClick={() => navigate("/contact")} />  
+                <Button text="Let's Chat!" onClick={() => navigate("/contact")} />  
 
                 <p className="text-lg w-full max-w-1/3">
                     I am a full stack developer based in Lagos, Nigeria. 
