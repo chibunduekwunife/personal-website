@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import Home from './Routes/home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>
-      Chibundu Ekwunife
-    </h1>
+    <div>
+      <Home />
+    </div>
   )
 }
 
