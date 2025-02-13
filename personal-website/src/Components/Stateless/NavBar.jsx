@@ -7,7 +7,7 @@ export default function NavBar() {
   const navigate = useNavigate();
 
   return (
-    <header className="bg-gray-800 text-white fixed top-0 left 0 w-full z-10 shadow-md">
+    <header className="bg-gradient-to-r from-gray-900 to-gray-600 text-white fixed top-0 left 0 w-full z-10">
 
       <nav className="flex items-center justify-between px-10 py-5">
 

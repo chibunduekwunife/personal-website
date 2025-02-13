@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../Components/Stateless/NavBar";
 import Button from "../Components/Stateless/Button";
+import Footer from "../Components/Stateless/Footer";
 
 export default function Contact() {
   const [firstName, setFirstName] = React.useState("");
@@ -68,10 +69,12 @@ export default function Contact() {
             text="Submit"
             type="submit"
             onClick={handleSubmit}
-            className="bg-red-500 hover:bg-red-600 py-3 mt-4 text-white font-bold rounded-sm transition ease-in-out duration-250 w-full"
+            className="bg-red-500 hover:bg-red-600 py-3 mt-4 text-white font-bold rounded-sm transition ease-in-out duration-250 w-full mb-20"
           />
 
         </form>
+
+        <Footer />
 
       </section>
     </div>
